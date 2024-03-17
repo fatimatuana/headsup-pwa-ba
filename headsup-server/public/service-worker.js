@@ -1,9 +1,11 @@
-importScripts("/precache-manifest.e69de740ebb4360a8e71bec7cf510073.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/precache-manifest.61b23f0f39cf9f2d22cfae6e6e071558.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 
 if (workbox) {
     console.log(`Workbox is loaded`);
     workbox.precaching.precacheAndRoute(self.__precacheManifest);
+
+
 
 
     workbox.routing.registerRoute(

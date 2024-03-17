@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{f820:function(n,t,a){"use strict";a.r(t);var e=function(){var n=this,t=n.$createElement,a=n._self._c||t;return a("div",{staticClass:"about"},[a("v-container",[a("h1",[n._v(" Impressum ")]),n._v(" Fatima Tuana Sirinyurt "),a("br"),n._v("HTL Wien West, 2021 © ")])],1)},i=[],r=a("2877"),s=a("6544"),u=a.n(s),o=a("a523"),c={},l=Object(r["a"])(c,e,i,!1,null,null,null);t["default"]=l.exports;u()(l,{VContainer:o["a"]})}}]);
-//# sourceMappingURL=about.18642962.js.map
