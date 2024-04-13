@@ -14,12 +14,23 @@ const pool = new Pool({
   // }
   // *******
 
-  user: "postgres",
-  host: "localhost",
-  database: "headsup",
-  password: "postgres",
-  port: 5432
+  // user: "postgres", //### was working
+  // host: "localhost",
+  // database: "headsup",
+  // password: "postgres",
+  // port: 5432
 
+
+  // user: "postgres",
+  // host: "localhost",
+  // database: "headsup",
+  // password: "postgres",
+  // port: 5432
+
+  connectionString: "postgres://eukxsgcs:eRqK50d0WV40B7US8jxNtTS6d9-exE_k@mel.db.elephantsql.com/eukxsgcs",
+  ssl: {
+      rejectUnauthorized: false
+  }
 })
 
 module.exports = { pool };
